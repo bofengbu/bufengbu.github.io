@@ -1,0 +1,163 @@
+.box1 {
+    margin-top: -100px;
+    margin-left: 390px;
+    width: 800px;
+    height: 100%;
+    background-color: #E8E7E3;
+    opacity: 0.9;
+
+}
+
+.nav {
+    /* 导航条固定 */
+    position: fixed;
+    position: sticky;
+    top: 0px;
+}
+
+/* 设置nav的大小 */
+.nav {
+    width: 740px;
+    height: 48px;
+
+    /* background-color: #E8E7E3; */
+
+    margin: 100px auto;
+}
+
+/* 设置nav中的li */
+.nav li {
+    /* 设置li向左浮动，已使菜单横向排列 */
+    float: left;
+    line-height: 48px;
+}
+
+/* 设置a的样式 */
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 18px;
+    padding: 0 39px;
+}
+
+.nav li:last-child a {
+    padding: 0 42px 0 41px;
+}
+
+.nav a:hover {
+    background-color: #3f3f3f;
+    color: #E8E7E3;
+}
+
+/* 悬浮窗 */
+.dropdown:hover {
+    color: #777777;
+}
+
+.dropdown:hover>ul {
+    font-size: 18px;
+    display: block;
+    position: absolute;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.dropdown h4 {
+    padding: 0 38px;
+}
+
+.dropdown-menu {
+
+    display: none;
+}
+
+/* 搜索 */
+.search {
+    margin-left: 72%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* 表单 */
+.account {
+    color: #777777;
+
+    /* background-color: rebeccapurple; */
+
+}
+
+
+.register-top-grid {
+    width: 740px;
+
+    /* background-color:  #E8E7E3; */
+    /* margin-left: 390px; */
+    /* text-align: center; */
+}
+
+/* 表单名 */
+.register-top-grid h3 {
+    font-size: 18px;
+    margin-left: 347px;
+    display: block;
+    margin-bottom: 30px;
+
+    /* text-align: center; */
+
+}
+
+.input {
+    margin-top: 10px;
+    margin-left: 250px;
+
+    /* text-align: center; */
+    /* background-color: royalblue; */
+}
+
+/* 文本框 */
+/* .input span{
+
+} */
+
+/* 提交按钮 */
+.register-but {
+    width: 100px;
+    height: 50px;
+    background-color: #b4b1b1ee;
+    opacity: 0.8;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 340px;
+    margin-bottom: 10px;
+    /* margin: 10px 700px; */
+    /* width: 100px; */
+    /* height: 50px; */
+    /* background-color: rgb(255, 168, 127); */
+}
+
+.register-but>input {
+    font-size: 18px;
+    margin-top: 10%;
+    margin-left: 26%;
+    text-emphasis: none;
+
+}
+
+/* 尾部 */
+.footer {
+    margin-top: 40%;
+    overflow: hidden;
+    height: 200px;
+    background-color: rgb(221, 151, 45);
+}
+
+.container>.text-center {
+    margin-top: 80px;
+    text-align: center;
+    /* margin-left: 300px; */
+}
